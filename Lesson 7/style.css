@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: solid 1px black;
+}
+
+div {
+    float: right;
+    height: 40px;
+    width: 100px;
+    display: inline-block;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+    float: none;
+}

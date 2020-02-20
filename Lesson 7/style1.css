@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: solid 1px black;
+}
+
+main {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
